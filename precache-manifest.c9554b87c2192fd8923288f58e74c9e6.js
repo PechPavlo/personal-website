@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "231a1efae46234b36492aa0d6133f12a",
+    "revision": "20e81f220261f3c1b966a00099b28438",
     "url": "/personal-website/index.html"
   },
   {
-    "revision": "d773e56c9101930936e2",
-    "url": "/personal-website/static/css/main.5f361e03.chunk.css"
+    "revision": "9a8825c8c293b0bf57f8",
+    "url": "/personal-website/static/css/main.a972327c.chunk.css"
   },
   {
     "revision": "48614f4fbfcc7bd6c24b",
@@ -16,15 +16,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/personal-website/static/js/2.ae021ef8.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d773e56c9101930936e2",
-    "url": "/personal-website/static/js/main.05b76dc2.chunk.js"
+    "revision": "9a8825c8c293b0bf57f8",
+    "url": "/personal-website/static/js/main.5b399901.chunk.js"
   },
   {
     "revision": "8a0435702aa2b6325ff8",
     "url": "/personal-website/static/js/runtime-main.d49f66af.js"
   },
   {
-    "revision": "5d5d9eefa31e5e13a6610d9fa7a283bb",
-    "url": "/personal-website/static/media/logo.5d5d9eef.svg"
+    "revision": "c25517cef45add3a408372ea6cc77eef",
+    "url": "/personal-website/static/media/pavlo1.c25517ce.jpg"
   }
 ]);
