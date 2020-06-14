@@ -1,0 +1,58 @@
+/* .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  } */
+
+  .header {
+    background-color: #282c34;
+    height             : 30vh;
+    color: white;
+}
+
+.header__top {
+    display        : flex;
+    justify-content: space-between;
+    padding-top    : 72px;
+    font-size      : 24px;
+    line-height    : 28px;
+
+}
+
+.header__phone {
+    padding-left: 40px;
+    position    : relative;
+}
+
+.header__phone::before {
+    content         : "";
+    position        : absolute;
+    background-image: url("../../assets/images/phone-icon.svg");
+    width           : 30px;
+    height          : 30px;
+    left            : 0;
+}
+
+
+.menu__list-item {
+    display: inline-block;
+}
+
+.menu__list-item+.menu__list-item {
+    margin-left: 52px;
+}
+
+.menu__list a:hover {
+    text-decoration: underline;
+}
+
+.menu__list-img {
+    height: 30vmin;
+    pointer-events: none;
+    border-radius: 50%;
+}
