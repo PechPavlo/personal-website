@@ -25,15 +25,14 @@ function header () {
                             My Github
                             </a>
                         </li>
-                        {/* <li className="menu__list-item">
-                            <a className="menu__list-link" href="#">link</a>
-                        </li>
                         <li className="menu__list-item">
-                            <a className="menu__list-link" href="#">link</a>
-                        </li> */}
+                            <a className="menu__list-email" href="mailto:pavlo.pechenevskyi@gmail.com">pavlo.pechenevskyi@gmail.com</a>
+                        </li>
+                     <li className="menu__list-item">
+                            <a className="header__phone" href="tel:+380506806838">+38(050)680-68-38</a>
+                        </li>
                     </ul>
                 </nav>
-                <a className="header__phone" href="tel:+380506806838">+38(050)680-68-38</a>
             </div>
         </div>
     </header>

@@ -9,16 +9,16 @@ function App() {
     <div className="App">
       <Header />
       <header className="App-header">
-        <p>
+        <h3 className="App-header__title" >
           Hey, there! I'm Pavlo!<br />
-          How's it going?
-          </p>
+          <span> How's it going?</span>
+        </h3>
         {/* <img src={pavlo1} className="App-logo" alt="pavlo" /> */}
         <p>
           Here will be my personal Website! (soon:-)
         </p>
         <h3>Some of my pages:</h3>
-        <a
+        {/* <a
           className="App-link"
           href="https://www.linkedin.com/in/pavlo-pechenevskyi/"
         >
@@ -29,12 +29,19 @@ function App() {
           href="https://github.com/PechPavlo"
         >
           My Github
-        </a>
+        </a> */}
         <a
           className="App-link"
           href="https://pechpavlo.github.io/cappadocia/"
         >
-          Learn HTML & CSS by making "Cappadocia" page
+          Learn HTML & CSS by making <span>"Cappadocia"</span> page
+        </a>
+        <a
+          className="App-link"
+          href="https://pechpavlo.github.io/game-of-life/"
+        >
+          Learn JavaScript by making <span>
+            "Game of Life"</span> page
         </a>
         <a
           className="App-link"
@@ -46,7 +53,8 @@ function App() {
           className="App-link"
           href="http://PechPavlo.github.io/movie-posters"
         >
-          Learning React by making movie-poster page
+          Learning React by making<span>
+            "Movie poster"</span> page
         </a>
         <p>Keep calm, and learn React!!!</p>
       </header>

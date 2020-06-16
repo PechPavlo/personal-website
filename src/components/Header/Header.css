@@ -9,10 +9,10 @@
     color: white;
   } */
 
-  .header {
+.header {
     background-color: #282c34;
-    height             : 30vh;
-    color: white;
+    height          : 38vh;
+    color           : white;
 }
 
 .header__top {
@@ -25,14 +25,16 @@
 }
 
 .header__phone {
+    width       : 320px;
     padding-left: 40px;
     position    : relative;
+    margin-left : 30px;
 }
 
 .header__phone::before {
     content         : "";
     position        : absolute;
-    background-image: url("../../assets/images/phone-icon.svg");
+    background-image: url("../../assets/images/header-phone-icon.svg");
     width           : 30px;
     height          : 30px;
     left            : 0;
@@ -40,7 +42,8 @@
 
 
 .menu__list-item {
-    display: inline-block;
+    display   : inline-block;
+    margin-top: 20px;
 }
 
 .menu__list-item+.menu__list-item {
@@ -52,7 +55,99 @@
 }
 
 .menu__list-img {
-    height: 30vmin;
+    height        : 30vmin;
     pointer-events: none;
-    border-radius: 50%;
+    border-radius : 50%;
+}
+
+.menu__list-linkedin::before {
+    content         : "";
+    position        : absolute;
+    width           : 30px;
+    height          : 30px;
+    left            : 0;
+    background-image: url('../../assets/images/header-linkedin-icon.svg');
+}
+
+.menu__list-linkedin {
+    padding-top : 40px;
+    padding-left: 40px;
+    position    : relative;
+    margin-left : 0px;
+}
+
+.menu__list-github::before {
+    content         : "";
+    position        : absolute;
+    width           : 32px;
+    height          : 32px;
+    left            : 0;
+    background-image: url('../../assets/images/GitHub-Mark-Light-32px.png');
+}
+
+.menu__list-github {
+    padding-top : 40px;
+    padding-left: 40px;
+    position    : relative;
+    margin-left : 0px;
+
+}
+
+.menu__list-email {
+    margin-top  : 40px;
+    padding-left: 40px;
+    position    : relative;
+    margin-left : 280px;
+
+}
+
+.menu__list-email::before {
+    content         : "";
+    position        : absolute;
+    width           : 30px;
+    height          : 30px;
+    left            : 0;
+    background-image: url('../../assets/images/mail-icon.svg');
+}
+
+@media (max-width: 1025px) {
+
+    .header {
+        height: 45vh;
+    }
+    .header__top {
+        display        : flex;
+        justify-content: center;
+        padding-top    : 20px;
+    }
+
+    .menu__list-item+.menu__list-item {
+        margin-left: 0; 
+    }
+
+    .menu__list-email {
+        margin-left: 0;
+    }
+
+    .header__phone {
+        margin-left: -20px;
+    }
+
+    .menu__list {
+        padding-left: inherit;
+    }
+
+    .menu__list-item {
+        display   : block;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 376px) {
+
+    .header__top {
+        font-size      : 19px;
+        line-height    : 25px;
+    }
+
 }
