@@ -11,7 +11,7 @@
 
 .header {
     background-color: #282c34;
-    height          : 38vh;
+    height          : max-content;
     color           : white;
 }
 
@@ -113,9 +113,9 @@
 
 @media (max-width: 1025px) {
 
-    .header {
+    /* .header {
         height: 45vh;
-    }
+    } */
     .header__top {
         display        : flex;
         justify-content: center;
@@ -145,10 +145,15 @@
 }
 
 @media (max-width: 376px) {
-
     .header__top {
         font-size      : 19px;
         line-height    : 25px;
     }
+}
 
+@media (max-width: 326px) {
+    .header__top {
+        font-size      : 16px;
+        line-height    : 23px;
+    }
 }

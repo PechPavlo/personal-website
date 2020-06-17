@@ -8,8 +8,8 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <header className="App-header">
-        <h3 className="App-header__title" >
+      <section className="App-section">
+        <h3 className="App-section__title" >
           Hey, there! I'm Pavlo!<br />
           <span> How's it going?</span>
         </h3>
@@ -33,12 +33,16 @@ function App() {
         <a
           className="App-link"
           href="https://pechpavlo.github.io/cappadocia/"
+          target="_blank"
+          rel="noopener noreferrer"
         >
           Learn HTML & CSS by making <span>"Cappadocia"</span> page
         </a>
         <a
           className="App-link"
           href="https://pechpavlo.github.io/game-of-life/"
+          target="_blank"
+          rel="noopener noreferrer"
         >
           Learn JavaScript by making <span>
             "Game of Life"</span> page
@@ -46,18 +50,22 @@ function App() {
         <a
           className="App-link"
           href="https://pechpavlo.github.io/HomeWork-9/"
+          target="_blank"
+          rel="noopener noreferrer"
         >
           Homework in LemonSchool
         </a>
         <a
           className="App-link"
           href="http://PechPavlo.github.io/movie-posters"
+          target="_blank"
+          rel="noopener noreferrer"
         >
           Learning React by making<span>
             "Movie poster"</span> page
         </a>
         <p>Keep calm, and learn React!!!</p>
-      </header>
+      </section>
     </div>
   );
 }
