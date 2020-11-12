@@ -111,6 +111,10 @@
     background-image: url('../../assets/images/mail-icon.svg');
 }
 
+.last {
+    margin-bottom: 20px;
+}
+
 @media (max-width: 1025px) {
 
     /* .header {

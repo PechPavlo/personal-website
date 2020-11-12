@@ -1,5 +1,5 @@
 import React from 'react';
-import pavlo1 from '../assets/images/pavlo1.jpg';
+// import pavlo1 from '../assets/images/pavlo1.jpg';
 import Header from './Header/Header';
 import './App.css';
 
@@ -10,12 +10,17 @@ function App() {
       <Header />
       <section className="App-section">
         <h3 className="App-section__title" >
-          Hey, there! I'm Pavlo!<br />
+          Hey, there! I'm Pavlo!<br /> <br />
           <span> How's it going?</span>
         </h3>
         {/* <img src={pavlo1} className="App-logo" alt="pavlo" /> */}
         <p>
-          Here will be my personal Website! (soon:-)
+          It is my personal Website!
+        </p>
+        <p>
+          I am a Junior JavaScript Front-End developer seeking an entry-level position with Company to use my skills in coding. <br />
+           I am going to start working as a Junior Front-End Developer in IT product this year.<br />
+            My goal to be in a space, where people do huge useful things and make high demands on themselves.
         </p>
         <h3>Some of my pages:</h3>
         {/* <a
@@ -30,8 +35,90 @@ function App() {
         >
           My Github
         </a> */}
+
         <a
           className="App-link"
+          href="https://github.com/PechPavlo/tasks/blob/master/tasks/markups/level-2/shelter/shelter-cross-check-ru.md"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn HTML & CSS by making <span>"Shelter"  </span> task at "Rsschool".
+        </a>
+        <a
+          className="App-link last"
+          href="https://rolling-scopes-school.github.io/pechpavlo-JS2020Q3/shelter/pages/main/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <span>"Shelter"  page</span> page.
+        </a>
+        <a
+          className="App-link"
+          href="https://github.com/PechPavlo/tasks/blob/master/tasks/ready-projects/momentum.md"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn HTML & CSS by making <span>"Momentum"  </span> task at "Rsschool".
+        </a>
+        <a
+          className="App-link last"
+          href="https://rolling-scopes-school.github.io/pechpavlo-JS2020Q3/momentum/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <span>"Momentum"  page</span> page.
+        </a>
+        <a
+          className="App-link"
+          href="https://github.com/PechPavlo/tasks/blob/master/tasks/ready-projects/calculator.md"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn HTML & CSS by making <span>"Calculator"  </span> task at "Rsschool".
+        </a>
+        <a
+          className="App-link last"
+          href="https://rolling-scopes-school.github.io/pechpavlo-JS2020Q3/calculator/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <span>"Calculator"  page</span> page.
+        </a>
+        <a
+          className="App-link"
+          href="https://github.com/PechPavlo/tasks/blob/master/tasks/ready-projects/virtual-keyboard.md"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn HTML & CSS by making <span>"Virtual-keyboard"  </span> task at "Rsschool".
+        </a>
+        <a
+          className="App-link last"
+          href="https://rolling-scopes-school.github.io/pechpavlo-JS2020Q3/virtual-keyboard/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <span>"Virtual-keyboard"  page</span> page.
+        </a>
+
+        <a
+          className="App-link"
+          href="https://github.com/PechPavlo/tasks/blob/master/tasks/markups/level-1/webdev/webdev-ru.md"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn HTML & CSS by making <span>"Webdev"</span> task at "Rsschool".
+        </a>
+        <a
+          className="App-link last"
+          href="https://rolling-scopes-school.github.io/pechpavlo-JS2020Q3/webdev/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <span>"Webdev"</span> page.
+        </a>
+        <a
+          className="App-link last"
           href="https://pechpavlo.github.io/cappadocia/"
           target="_blank"
           rel="noopener noreferrer"
@@ -39,7 +126,7 @@ function App() {
           Learn HTML & CSS by making <span>"Cappadocia"</span> page
         </a>
         <a
-          className="App-link"
+          className="App-link last"
           href="https://pechpavlo.github.io/game-of-life/"
           target="_blank"
           rel="noopener noreferrer"
@@ -48,7 +135,7 @@ function App() {
             "Game of Life"</span> page
         </a>
         <a
-          className="App-link"
+          className="App-link last"
           href="https://pechpavlo.github.io/HomeWork-9/"
           target="_blank"
           rel="noopener noreferrer"
@@ -56,7 +143,7 @@ function App() {
           Homework in LemonSchool
         </a>
         <a
-          className="App-link"
+          className="App-link last"
           href="http://PechPavlo.github.io/movie-posters"
           target="_blank"
           rel="noopener noreferrer"
