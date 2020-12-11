@@ -38,59 +38,43 @@ function App() {
 
         <a
           className="App-link"
-          href="https://github.com/PechPavlo/tasks/blob/master/tasks/markups/level-2/shelter/shelter-cross-check-ru.md"
+          href="https://github.com/PechPavlo/tasks/blob/master/tasks/rslang/english-for-kids-translated.md"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn HTML & CSS by making <span>"Shelter"  </span> task at "Rsschool".
+          Learn JavaScript, HTML & CSS by making <span>"English for kids"  </span> task at "Rsschool".
         </a>
         <a
           className="App-link last"
-          href="https://rolling-scopes-school.github.io/pechpavlo-JS2020Q3/shelter/pages/main/"
+          href="https://rolling-scopes-school.github.io/pechpavlo-JS2020Q3/english-for-kids/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <span>"Shelter"  page</span> page.
+          <span>"English for kids"  </span> page.
         </a>
         <a
           className="App-link"
-          href="https://github.com/PechPavlo/tasks/blob/master/tasks/ready-projects/momentum.md"
+          href="https://github.com/PechPavlo/tasks/blob/master/tasks/gem-pazzle/codejam-the-gem-puzzle.md"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn HTML & CSS by making <span>"Momentum"  </span> task at "Rsschool".
+          Learn JavaScript, HTML & CSS by making <span>"Gem-puzzle"  </span> task at "Rsschool".
         </a>
         <a
           className="App-link last"
-          href="https://rolling-scopes-school.github.io/pechpavlo-JS2020Q3/momentum/"
+          href="https://rolling-scopes-school.github.io/pechpavlo-JS2020Q3/gem-puzzle/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <span>"Momentum"  page</span> page.
+          <span>"Gem-puzzle"  </span> page.
         </a>
         <a
           className="App-link"
-          href="https://github.com/PechPavlo/tasks/blob/master/tasks/ready-projects/calculator.md"
+          href="https://github.com/PechPavlo/tasks/blob/master/tasks/virtual-keyboard/virtual-keyboard-en.md"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn HTML & CSS by making <span>"Calculator"  </span> task at "Rsschool".
-        </a>
-        <a
-          className="App-link last"
-          href="https://rolling-scopes-school.github.io/pechpavlo-JS2020Q3/calculator/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <span>"Calculator"  page</span> page.
-        </a>
-        <a
-          className="App-link"
-          href="https://github.com/PechPavlo/tasks/blob/master/tasks/ready-projects/virtual-keyboard.md"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn HTML & CSS by making <span>"Virtual-keyboard"  </span> task at "Rsschool".
+          Learn JavaScript, HTML & CSS by making <span>"Virtual Keyboard"  </span> task at "Rsschool".
         </a>
         <a
           className="App-link last"
@@ -98,7 +82,71 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <span>"Virtual-keyboard"  page</span> page.
+          <span>"Virtual Keyboard"  </span> page.
+        </a>
+        <a
+          className="App-link"
+          href="https://github.com/PechPavlo/tasks/blob/master/tasks/markups/level-2/shelter/shelter-cross-check-ru.md"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn JavaScript, HTML & CSS by making <span>"Shelter"  </span> task at "Rsschool".
+        </a>
+        <a
+          className="App-link last"
+          href="https://rolling-scopes-school.github.io/pechpavlo-JS2020Q3/shelter/pages/main/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <span>"Shelter"  </span> page.
+        </a>
+        <a
+          className="App-link"
+          href="https://github.com/PechPavlo/tasks/blob/master/tasks/ready-projects/momentum.md"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn JavaScript, HTML & CSS by making <span>"Momentum"  </span> task at "Rsschool".
+        </a>
+        <a
+          className="App-link last"
+          href="https://rolling-scopes-school.github.io/pechpavlo-JS2020Q3/momentum/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <span>"Momentum"  </span> page.
+        </a>
+        <a
+          className="App-link"
+          href="https://github.com/PechPavlo/tasks/blob/master/tasks/ready-projects/calculator.md"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn JavaScript, HTML & CSS by making <span>"Calculator"  </span> task at "Rsschool".
+        </a>
+        <a
+          className="App-link last"
+          href="https://rolling-scopes-school.github.io/pechpavlo-JS2020Q3/calculator/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <span>"Calculator"  </span> page.
+        </a>
+        <a
+          className="App-link"
+          href="https://github.com/PechPavlo/tasks/blob/master/tasks/ready-projects/virtual-keyboard.md"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn JavaScript  by making <span>"Virtual-keyboard"  </span> task at "Rsschool".
+        </a>
+        <a
+          className="App-link last"
+          href="https://rolling-scopes-school.github.io/pechpavlo-JS2020Q3/virtual-keyboard/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <span>"Virtual-keyboard"  </span> page.
         </a>
 
         <a
@@ -134,7 +182,7 @@ function App() {
           Learn JavaScript by making <span>
             "Game of Life"</span> page
         </a>
-        <a
+        {/* <a
           className="App-link last"
           href="https://pechpavlo.github.io/HomeWork-9/"
           target="_blank"
@@ -151,7 +199,7 @@ function App() {
           Learning React by making<span>
             "Movie poster"</span> page
         </a>
-        <p>Keep calm, and learn React!!!</p>
+        <p>Keep calm, and learn React!!!</p> */}
       </section>
     </div>
   );
